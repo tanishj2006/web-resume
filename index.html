@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume Builder - Enter Details</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Build Your Resume</h1>
+      <form id="resumeForm">
+        <div class="form-group">
+          <label for="name">Full Name:</label>
+          <input type="text" id="name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" required />
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone:</label>
+          <input type="tel" id="phone" required />
+        </div>
+        <div class="form-group">
+          <label for="address">Address:</label>
+          <input type="text" id="address" />
+        </div>
+        <div class="form-group">
+          <label for="github">GitHub Link:</label>
+          <input
+            type="url"
+            id="github"
+            placeholder="https://github.com/yourusername" />
+        </div>
+        <div class="form-group">
+          <label for="linkedin">LinkedIn Link:</label>
+          <input
+            type="url"
+            id="linkedin"
+            placeholder="https://linkedin.com/in/yourprofile" />
+        </div>
+        <div class="form-group">
+          <label for="summary">Professional Summary:</label>
+          <textarea id="summary" rows="4"></textarea>
+        </div>
+        <div class="form-group">
+          <label for="education">Education (e.g., Degree, School, Year):</label>
+          <textarea
+            id="education"
+            rows="4"
+            placeholder="e.g., BSc Computer Science, XYZ University, 2020"></textarea>
+        </div>
+        <div class="form-group">
+          <label for="experience"
+            >Work Experience (e.g., Job Title, Company, Dates,
+            Description):</label
+          >
+          <textarea
+            id="experience"
+            rows="6"
+            placeholder="e.g., Software Engineer, ABC Corp, 2021-Present, Developed web apps..."></textarea>
+        </div>
+        <div class="form-group">
+          <label for="projects"
+            >Projects (e.g., Project Name, Description, Technologies):</label
+          >
+          <textarea
+            id="projects"
+            rows="6"
+            placeholder="e.g., Portfolio Website, Built a responsive site using HTML/CSS/JS, 2023"></textarea>
+        </div>
+        <div class="form-group">
+          <label for="skills">Skills (comma-separated):</label>
+          <input
+            type="text"
+            id="skills"
+            placeholder="e.g., JavaScript, Python, HTML" />
+        </div>
+        <div class="form-group">
+          <label for="certifications">Certifications:</label>
+          <textarea
+            id="certifications"
+            rows="3"
+            placeholder="e.g., AWS Certified Developer, 2022"></textarea>
+        </div>
+        <button type="submit">Generate Resume</button>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
