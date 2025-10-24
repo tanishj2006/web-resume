@@ -29,7 +29,7 @@ Git & GitHub – Version control and deployment
 
 🖥️ Live Demo
 
-👉 Try the Resume Builder
+👉 Try the Resume Builder - [text](https://tanishj2006.github.io/web-resume/)
 
 ⚙️ How to Use
 
