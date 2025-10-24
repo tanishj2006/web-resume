@@ -22,6 +22,7 @@ document.querySelector("#resumeForm")?.addEventListener("submit", function (e) {
 
 const data = JSON.parse(localStorage.getItem("resumeData"));
 if (data) {
+  // Generate resume content
   document.getElementById("resumeContent").innerHTML = `
         <h1>${data.name}</h1>
         <div class="contact">
@@ -78,6 +79,7 @@ if (data) {
         }
     `;
 } else {
+  //If No data found
   document.getElementById("resumeContent").innerHTML =
     '<p style="text-align: center; color: #666;">No resume data found. Please go back and fill out the form.</p>';
 }
