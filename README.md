@@ -39,7 +39,7 @@ Fill in your details like name, skills, education, and projects.
 
 Click Generate Resume to view your formatted resume instantly.
 
-(Optional) Print or save the resume as a PDF.
+Print or save the resume as a PDF.
 
 📄 Project Overview
 
